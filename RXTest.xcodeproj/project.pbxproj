@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37FF72C11C64316CFEA787F1 /* libPods-RXTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E2B538A7DE90A96600D946 /* libPods-RXTest.a */; };
+		F90C6116221FFC2600E5C8F1 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6115221FFC2600E5C8F1 /* Music.swift */; };
+		F90C6118221FFC8600E5C8F1 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */; };
+		F90C611B221FFEE500E5C8F1 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */; };
+		F90C611C221FFEE500E5C8F1 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */; };
 		F9EBF2E521DDB35C00FED0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */; };
 		F9EBF2E721DDB35C00FED0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EBF2E621DDB35C00FED0EE /* ViewController.swift */; };
 		F9EBF2EA21DDB35C00FED0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EBF2E821DDB35C00FED0EE /* Main.storyboard */; };
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39DB54BD48EC78EFEA338264 /* Pods-RXTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXTest/Pods-RXTest.release.xcconfig"; sourceTree = "<group>"; };
+		5903C205E1CD14CB320E84D5 /* Pods-RXTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXTest/Pods-RXTest.debug.xcconfig"; sourceTree = "<group>"; };
+		78E2B538A7DE90A96600D946 /* libPods-RXTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90C6115221FFC2600E5C8F1 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
 		F9EBF2E121DDB35C00FED0EE /* RXTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9EBF2E621DDB35C00FED0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,7 @@
 		F9EBF30021DDB36000FED0EE /* RXTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EBF30421DDB36000FED0EE /* RXTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTestUITests.swift; sourceTree = "<group>"; };
 		F9EBF30621DDB36000FED0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EBF31221DDB56900FED0EE /* RXTest-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RXTest-BridgingHeader.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FF72C11C64316CFEA787F1 /* libPods-RXTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D2BB67C7C3FD527740146C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5903C205E1CD14CB320E84D5 /* Pods-RXTest.debug.xcconfig */,
+				39DB54BD48EC78EFEA338264 /* Pods-RXTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD00A3534B04D039925B824A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E2B538A7DE90A96600D946 /* libPods-RXTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9EBF2D821DDB35C00FED0EE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				F9EBF2F821DDB36000FED0EE /* RXTestTests */,
 				F9EBF30321DDB36000FED0EE /* RXTestUITests */,
 				F9EBF2E221DDB35C00FED0EE /* Products */,
+				00D2BB67C7C3FD527740146C /* Pods */,
+				BD00A3534B04D039925B824A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +132,15 @@
 			children = (
 				F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */,
 				F9EBF2E621DDB35C00FED0EE /* ViewController.swift */,
+				F90C6115221FFC2600E5C8F1 /* Music.swift */,
+				F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */,
+				F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */,
+				F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */,
 				F9EBF2E821DDB35C00FED0EE /* Main.storyboard */,
 				F9EBF2EB21DDB36000FED0EE /* Assets.xcassets */,
 				F9EBF2ED21DDB36000FED0EE /* LaunchScreen.storyboard */,
 				F9EBF2F021DDB36000FED0EE /* Info.plist */,
+				F9EBF31221DDB56900FED0EE /* RXTest-BridgingHeader.h */,
 			);
 			path = RXTest;
 			sourceTree = "<group>";
@@ -132,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9EBF30921DDB36000FED0EE /* Build configuration list for PBXNativeTarget "RXTest" */;
 			buildPhases = (
+				5C963C5DED17D105F071B26E /* [CP] Check Pods Manifest.lock */,
 				F9EBF2DD21DDB35C00FED0EE /* Sources */,
 				F9EBF2DE21DDB35C00FED0EE /* Frameworks */,
 				F9EBF2DF21DDB35C00FED0EE /* Resources */,
@@ -232,6 +271,7 @@
 				F9EBF2EF21DDB36000FED0EE /* LaunchScreen.storyboard in Resources */,
 				F9EBF2EC21DDB36000FED0EE /* Assets.xcassets in Resources */,
 				F9EBF2EA21DDB35C00FED0EE /* Main.storyboard in Resources */,
+				F90C611C221FFEE500E5C8F1 /* MusicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +291,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C963C5DED17D105F071B26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RXTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9EBF2DD21DDB35C00FED0EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90C611B221FFEE500E5C8F1 /* MusicTableViewCell.swift in Sources */,
+				F90C6118221FFC8600E5C8F1 /* MusicListViewModel.swift in Sources */,
 				F9EBF2E721DDB35C00FED0EE /* ViewController.swift in Sources */,
 				F9EBF2E521DDB35C00FED0EE /* AppDelegate.swift in Sources */,
+				F90C6116221FFC2600E5C8F1 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +494,7 @@
 		};
 		F9EBF30A21DDB36000FED0EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5903C205E1CD14CB320E84D5 /* Pods-RXTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,6 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jack.RXTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXTest/RXTest-BridgingHeader.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +513,7 @@
 		};
 		F9EBF30B21DDB36000FED0EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DB54BD48EC78EFEA338264 /* Pods-RXTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jack.RXTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXTest/RXTest-BridgingHeader.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
