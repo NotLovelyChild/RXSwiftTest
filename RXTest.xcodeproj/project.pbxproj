@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		37FF72C11C64316CFEA787F1 /* libPods-RXTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E2B538A7DE90A96600D946 /* libPods-RXTest.a */; };
-		F90C6116221FFC2600E5C8F1 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6115221FFC2600E5C8F1 /* Music.swift */; };
-		F90C6118221FFC8600E5C8F1 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */; };
-		F90C611B221FFEE500E5C8F1 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */; };
-		F90C611C221FFEE500E5C8F1 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */; };
+		F9A5C9C42227BC2200B251F4 /* JCUIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5C9C32227BC2200B251F4 /* JCUIViewController+Rx.swift */; };
+		F9A5C9C92227D00300B251F4 /* JCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5C9C82227D00300B251F4 /* JCViewController.swift */; };
 		F9EBF2E521DDB35C00FED0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */; };
 		F9EBF2E721DDB35C00FED0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EBF2E621DDB35C00FED0EE /* ViewController.swift */; };
 		F9EBF2EA21DDB35C00FED0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EBF2E821DDB35C00FED0EE /* Main.storyboard */; };
@@ -42,10 +40,8 @@
 		39DB54BD48EC78EFEA338264 /* Pods-RXTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXTest/Pods-RXTest.release.xcconfig"; sourceTree = "<group>"; };
 		5903C205E1CD14CB320E84D5 /* Pods-RXTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXTest/Pods-RXTest.debug.xcconfig"; sourceTree = "<group>"; };
 		78E2B538A7DE90A96600D946 /* libPods-RXTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F90C6115221FFC2600E5C8F1 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
-		F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
-		F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
-		F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		F9A5C9C32227BC2200B251F4 /* JCUIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JCUIViewController+Rx.swift"; sourceTree = "<group>"; };
+		F9A5C9C82227D00300B251F4 /* JCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCViewController.swift; sourceTree = "<group>"; };
 		F9EBF2E121DDB35C00FED0EE /* RXTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9EBF2E621DDB35C00FED0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +101,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F9A5C9C22227BBCC00B251F4 /* JCRXExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9A5C9C32227BC2200B251F4 /* JCUIViewController+Rx.swift */,
+			);
+			path = JCRXExtensions;
+			sourceTree = "<group>";
+		};
+		F9A5C9C72227CFE900B251F4 /* PiblicClass */ = {
+			isa = PBXGroup;
+			children = (
+				F9A5C9C82227D00300B251F4 /* JCViewController.swift */,
+			);
+			path = PiblicClass;
+			sourceTree = "<group>";
+		};
 		F9EBF2D821DDB35C00FED0EE = {
 			isa = PBXGroup;
 			children = (
@@ -130,12 +142,10 @@
 		F9EBF2E321DDB35C00FED0EE /* RXTest */ = {
 			isa = PBXGroup;
 			children = (
+				F9A5C9C72227CFE900B251F4 /* PiblicClass */,
+				F9A5C9C22227BBCC00B251F4 /* JCRXExtensions */,
 				F9EBF2E421DDB35C00FED0EE /* AppDelegate.swift */,
 				F9EBF2E621DDB35C00FED0EE /* ViewController.swift */,
-				F90C6115221FFC2600E5C8F1 /* Music.swift */,
-				F90C6117221FFC8600E5C8F1 /* MusicListViewModel.swift */,
-				F90C6119221FFEE500E5C8F1 /* MusicTableViewCell.swift */,
-				F90C611A221FFEE500E5C8F1 /* MusicTableViewCell.xib */,
 				F9EBF2E821DDB35C00FED0EE /* Main.storyboard */,
 				F9EBF2EB21DDB36000FED0EE /* Assets.xcassets */,
 				F9EBF2ED21DDB36000FED0EE /* LaunchScreen.storyboard */,
@@ -271,7 +281,6 @@
 				F9EBF2EF21DDB36000FED0EE /* LaunchScreen.storyboard in Resources */,
 				F9EBF2EC21DDB36000FED0EE /* Assets.xcassets in Resources */,
 				F9EBF2EA21DDB35C00FED0EE /* Main.storyboard in Resources */,
-				F90C611C221FFEE500E5C8F1 /* MusicTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,11 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90C611B221FFEE500E5C8F1 /* MusicTableViewCell.swift in Sources */,
-				F90C6118221FFC8600E5C8F1 /* MusicListViewModel.swift in Sources */,
 				F9EBF2E721DDB35C00FED0EE /* ViewController.swift in Sources */,
+				F9A5C9C92227D00300B251F4 /* JCViewController.swift in Sources */,
+				F9A5C9C42227BC2200B251F4 /* JCUIViewController+Rx.swift in Sources */,
 				F9EBF2E521DDB35C00FED0EE /* AppDelegate.swift in Sources */,
-				F90C6116221FFC2600E5C8F1 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
